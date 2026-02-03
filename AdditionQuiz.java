@@ -7,7 +7,7 @@ public class AdditionQuiz {
         Scanner input = new Scanner(System.in);
         System.out.println("what is " + num1 + " + " + num2 + "?");
         int number = input.nextInt();
-        System.out.println(num1 + " + " + num2 + " = " + number + " is " + ((num1 + num2) == number));
+        System.out.println(num1 + " + " + num2 + " = " + number + " is " + ((num1 + num2) == number)); 
         input.close();
     }
 }
