@@ -8,7 +8,7 @@ public class DigitalClock {
 
         while (true) { // Infinite loop to keep updating time
             LocalTime currentTime = LocalTime.now(); // Get current time
-            String formattedTime = currentTime.format(formatter); // Format time
+            String formattedTime = currentTime.format(formatter); // Format time 
             System.out.print("\rCurrent time: " + formattedTime); // \r moves cursor to start
             Thread.sleep(1000); // Wait for 1 second
         }
