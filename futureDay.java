@@ -4,7 +4,7 @@ public class futureDay {
         int daysElapsed = 100;
         int futureDay = (today + daysElapsed) % 7;
         // display the future day
-        System.out.println("the future day is " + futureDay);
+        System.out.println("the future day is " + futureDay); 
         switch (futureDay) {
             case 0:
                 System.out.println("the day will be sunday");
