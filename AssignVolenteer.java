@@ -7,7 +7,7 @@ public class AssignVolenteer {
         final int CLOSING_CODE = 1;
         final int OTHER_CODE = 2;
         final String CLOSING_PRICER = "Temesgen";
-        final String OTHER_PRICER = "Abebe";
+        final String OTHER_PRICER = "Abebe"; 
         Scanner input = new Scanner(System.in);
         System.out.println("what type of donaton is this ?");
         System.out
