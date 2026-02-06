@@ -7,7 +7,7 @@ public class Class {
         student.takeExam();
     }
 
-    // Data fields (state)
+    // Data fields (state) 
     private String name;
 
     // Behavior methods
