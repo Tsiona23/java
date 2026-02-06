@@ -17,7 +17,7 @@ public class Class {
 
     public void takeExam() { // Method 2
         System.out.println("Taking exam...");
-    }
+    } 
 
     public String getName() { // Accessor method
         return name;
