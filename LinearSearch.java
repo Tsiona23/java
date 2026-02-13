@@ -1,4 +1,4 @@
-public class LinearSearch { // declare the class named LinearSearch
+public class LinearSearch {  // declare the class named LinearSearch
     public static void main(String[] args) { // main method — program entry point
         int[] arr = { 2, 3, 4, 10, 15, 6 }; // sample integer array to search
         int i = linearSearch(arr, 10); // call linearSearch to find the value 10 and store returned index in i
