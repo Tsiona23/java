@@ -6,7 +6,7 @@ public class LinearSearch {  // declare the class named LinearSearch
         int j = linearSearch(arr, 7); // call linearSearch to find the value 7 and store returned index in j
         System.out.println("linearsearch(arr, 7) returns " + j); // print the result for search of 7
         // end of the demonstration in main
-    } // end of main method 
+    }  // end of main method 
   
     public static int linearSearch(int[] arr, int key) { // linear search method: returns index of key or -1
         for (int i = 0; i < arr.length; i++) { // loop through each index from 0 to arr.length-1
